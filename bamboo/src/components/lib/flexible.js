@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-;(function(win, lib) {
+export default function(win, lib) {
     var doc = win.document;
     var docEl = doc.documentElement;
     var metaEl = doc.querySelector('meta[name="viewport"]');
@@ -118,6 +118,6 @@
         return val;
     }
 
-})(window, window['lib'] || (window['lib'] = {}));
+};
 
 /* eslint-enable */

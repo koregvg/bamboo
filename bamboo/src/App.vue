@@ -1,26 +1,21 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view></router-view>
   </div>
 </template>
 
 <script>
+import flexible from './components/lib/flexible'
+
+flexible(window, window['lib'] || (window['lib'] = {}));
 export default {
   name: 'app'
 }
 </script>
 
-<style lang="less" scoped>
-
-  @import "../src/components/css/reset.less";
-
+<style lang="less">
+  @import './components/css/reset.less';
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
 }
 </style>
