@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e73dd19c-b57e-48d1-aaa8-95453d9e5a1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bamboo/src/components/Index.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bamboo/src/components/header-bar/header-bar.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bamboo/src/components/pages/index/img/banner1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bamboo/src/components/pages/index/img/banner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bamboo/src/components/pages/index/img/banner3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bamboo/src/components/pages/index/img/landscape.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bamboo/src/components/lib/prefixfree.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bamboo/src/components/lib/swiper/swiper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bamboo/src/components/lib/swiper/swiper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bamboo/src/components/scaler/scaler.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bamboo/src/components/slider/slider.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bamboo/src/components/Index.vue" afterPath="$PROJECT_DIR$/bamboo/src/components/pages/index/Index.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bamboo/build/vue-loader.conf.js" afterPath="$PROJECT_DIR$/bamboo/build/vue-loader.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bamboo/build/webpack.base.conf.js" afterPath="$PROJECT_DIR$/bamboo/build/webpack.base.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bamboo/index.html" afterPath="$PROJECT_DIR$/bamboo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bamboo/src/App.vue" afterPath="$PROJECT_DIR$/bamboo/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bamboo/src/components/Hello.vue" afterPath="$PROJECT_DIR$/bamboo/src/components/Hello.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bamboo/src/components/lib/flexible.js" afterPath="$PROJECT_DIR$/bamboo/src/components/lib/flexible.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bamboo/package.json" afterPath="$PROJECT_DIR$/bamboo/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bamboo/src/router/index.js" afterPath="$PROJECT_DIR$/bamboo/src/router/index.js" />
     </list>
     <ignored path="bamboo.iws" />
@@ -33,22 +35,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="reset.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo/src/components/css/reset.less">
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-332">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            <state relative-caret-position="105">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboo/src/App.vue">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-              <folding />
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,8 +60,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bamboo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="225">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -66,18 +70,50 @@
       <file leaf-file-name="header-bar.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bamboo/src/components/header-bar/header-bar.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="375">
+              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scaler.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo/src/components/scaler/scaler.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-555">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Index.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bamboo/src/components/Index.vue">
+        <entry file="file://$PROJECT_DIR$/bamboo/src/components/pages/index/Index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+            <state relative-caret-position="266">
+              <caret line="146" column="9" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
+              <folding>
+                <element signature="e#941#996#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prefixfree.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo/src/components/lib/prefixfree.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="120" selection-start-line="5" selection-start-column="120" selection-end-line="5" selection-end-column="120" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slider.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboo/src/components/slider/slider.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -105,12 +141,16 @@
         <option value="$PROJECT_DIR$/bamboo/build/vue-loader.conf.js" />
         <option value="$PROJECT_DIR$/bamboo/src/components/Hello.vue" />
         <option value="$PROJECT_DIR$/bamboo/src/components/lib/flexible.js" />
-        <option value="$PROJECT_DIR$/bamboo/src/router/index.js" />
         <option value="$PROJECT_DIR$/bamboo/src/main.js" />
-        <option value="$PROJECT_DIR$/bamboo/src/App.vue" />
-        <option value="$PROJECT_DIR$/bamboo/index.html" />
         <option value="$PROJECT_DIR$/bamboo/src/components/header-bar/header-bar.vue" />
+        <option value="$PROJECT_DIR$/bamboo/src/components/slider/header-bar.vue" />
+        <option value="$PROJECT_DIR$/bamboo/index.html" />
+        <option value="$PROJECT_DIR$/bamboo/src/App.vue" />
         <option value="$PROJECT_DIR$/bamboo/src/components/Index.vue" />
+        <option value="$PROJECT_DIR$/bamboo/src/router/index.js" />
+        <option value="$PROJECT_DIR$/bamboo/src/components/slider/slider.vue" />
+        <option value="$PROJECT_DIR$/bamboo/src/components/scaler/scaler.vue" />
+        <option value="$PROJECT_DIR$/bamboo/src/components/pages/index/Index.vue" />
       </list>
     </option>
   </component>
@@ -125,6 +165,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="739" />
@@ -238,7 +279,33 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="header-bar" />
+              <option name="myItemId" value="scaler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bamboo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bamboo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bamboo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -260,11 +327,16 @@
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/bamboo/node_modules/mocha" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bamboo/src/components/pages/index" />
+      <recent name="$PROJECT_DIR$/bamboo/src/components/lib/swiper" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bamboo/static" />
-      <recent name="$PROJECT_DIR$/bamboo/src/components" />
       <recent name="$PROJECT_DIR$/bamboo/src/components/lib" />
-      <recent name="$PROJECT_DIR$/bamboo/src/components/css" />
+      <recent name="$PROJECT_DIR$/bamboo/src/components/pages/index/img" />
+      <recent name="$PROJECT_DIR$/bamboo/src/components/scaler" />
+      <recent name="$PROJECT_DIR$/bamboo/src/components" />
+      <recent name="$PROJECT_DIR$/bamboo/static" />
     </key>
   </component>
   <component name="RunManager">
@@ -341,12 +413,12 @@
       <updated>1496907961636</updated>
       <workItem from="1496907963081" duration="5166000" />
       <workItem from="1496913680332" duration="1555000" />
-      <workItem from="1497234912989" duration="18411000" />
+      <workItem from="1497234912989" duration="34395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25132000" />
+    <option name="totallyTimeSpent" value="41116000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,7 +430,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="739" extended-state="6" />
+    <frame x="-1" y="23" width="1280" height="739" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25767368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -366,7 +438,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -396,49 +468,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bamboo/build/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="59" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo/build/webpack.base.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo/src/components/css/icon.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo/src/components/css/html5.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="154" column="14" selection-start-line="154" selection-start-column="14" selection-end-line="154" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bamboo/src/components/Hello.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -610,14 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bamboo/build/webpack.dev.conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -642,29 +663,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo/src/components/lib/flexible.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bamboo/build/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -759,6 +762,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bamboo/src/components/css/reset.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-332">
@@ -767,35 +778,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo/index.html">
+    <entry file="file://$PROJECT_DIR$/bamboo/src/components/lib/swiper/swiper.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="165">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo/src/components/lib/swiper/swiper.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo/src/components/lib/flexible.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bamboo/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo/src/components/lib/prefixfree.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="120" selection-start-line="5" selection-start-column="120" selection-end-line="5" selection-end-column="120" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bamboo/src/components/header-bar/header-bar.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="375">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bamboo/src/components/Index.vue">
+    <entry file="file://$PROJECT_DIR$/bamboo/src/components/slider/slider.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        <state relative-caret-position="169">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo/src/components/scaler/scaler.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-555">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboo/src/components/pages/index/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="146" column="9" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
+          <folding>
+            <element signature="e#941#996#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
