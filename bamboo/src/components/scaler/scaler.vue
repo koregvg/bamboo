@@ -1,12 +1,10 @@
 <template>
     <div class="scale-wrapper" :style="{width:realWidth, height:realHeight}">
-        <div class="content">
-            <slot name="content">
-                <div>
-                    <div :style="{backgroundColor:'blue'}"></div>
-                </div>
-            </slot>
-        </div>
+        <slot name="content">
+            <div>
+                <div :style="{backgroundColor:'blue'}"></div>
+            </div>
+        </slot>
     </div>
 </template>
 
@@ -34,19 +32,6 @@
                 return this.px2rem(this.width);
             }
         },
-        mounted() {
-            console.log('mounted', this);
-            let swiper = new Swiper('.swiper-container', {
-                pagination: '.swiper-pagination',
-                paginationClickable: true,
-                loop: true,
-                speed: 600,
-                autoplay: 3000,
-                onTouchEnd: function () {
-                    swiper.startAutoplay()
-                }
-            });
-        },
         methods: {
             px2rem(value) {
                 if (typeof value !== 'number' || isNaN(value)) {
@@ -62,23 +47,20 @@
 <style lang="less" scoped>
     .scale-wrapper {
         display: inline-block;
-        .content {
+        > div {
             height: 100%;
             transition: .1s transform;
             transform: translateZ(0);
-            /* hack */
-            div {
+            > div{
                 height: 100%;
-                div {
-                    height: 100%;
-                }
-                &:hover {
-                    z-index: 1;
-                    div {
-                        transform: scale(1.1, 1.1);
-                        transition: .3s transform;
-                        box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
-                    }
+            }
+            /* hack */
+            &:hover {
+                z-index: 1;
+                > div {
+                    transform: scale(1.1, 1.1);
+                    transition: .3s transform;
+                    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
                 }
             }
         }

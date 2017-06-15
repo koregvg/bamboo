@@ -18,24 +18,35 @@
             </div>
         </header-bar>
         <slider
-                :listImg="listImg"
+                :img="listImg"
         >
         </slider>
+        <carousel
+                :img="logoImg"
+        >
+        </carousel>
         <scaler
                 :width="100"
                 :height="100"
         >
-            <div slot="content">
+            <div slot="content" class="slot">
                 <img :src="imgSrc">
             </div>
         </scaler>
+        <box-gallery
+                :width="100"
+                :height="100"
+        >
+        </box-gallery>
     </section>
 </template>
 
 <script>
     import headerBar from '../../header-bar/header-bar.vue'
     import slider from '../../slider/slider.vue'
+    import carousel from '../../carousel/carousel.vue'
     import scaler from '../../scaler/scaler.vue'
+    import boxGallery from '../../box-gallery/box-gallery.vue'
     import img1 from './img/banner1.png'
     import img2 from './img/banner2.jpg'
     import img3 from './img/banner3.jpg'
@@ -52,13 +63,28 @@
                 }, {
                     url: img3
                 }],
+                logoImg:[{
+                    url: img1
+                }, {
+                    url: img2
+                }, {
+                    url: img3
+                }, {
+                    url: img1
+                }, {
+                    url: img2
+                }, {
+                    url: img3
+                }],
                 imgSrc: img4
             }
         },
         components: {
             headerBar,
             slider,
-            scaler
+            carousel,
+            scaler,
+            boxGallery
         }
     }
 </script>
@@ -103,15 +129,15 @@
             .swiper-wrapper {
                 width: 100%;
                 height: 100%;
-            }
-            .swiper-slide {
-                background-position: center;
-                background-size: 100% 100%;
-                width: 100%;
-                height: 100%;
-                img {
+                .swiper-slide {
+                    background-position: center;
+                    background-size: 100% 100%;
                     width: 100%;
                     height: 100%;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
                 }
             }
             .swiper-pagination-bullet {
@@ -121,15 +147,33 @@
                 background: #7c5e53;
             }
         }
+        .carousel-container {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 100px;
+            .swiper-wrapper {
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                .swiper-slide {
+                    background-position: center;
+                    background-size: 100% 100%;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+        }
         .scale-wrapper {
             display: inline-block;
-            .content {
-                height: 100%;
-                transition: .1s transform;
-                transform: translateZ(0);
-                /* hack */
-                div {
+                .slot {
                     height: 100%;
+                    transition: .1s transform;
+                    transform: translateZ(0);
+                    /* hack */
                     img {
                         height: 100%;
                     }
@@ -143,7 +187,6 @@
                         }
                     }
                 }
-            }
         }
     }
 </style>
